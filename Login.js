@@ -72,7 +72,7 @@ const Login = () => {
                     setLoginData(null)
                     setLoginError(error)
                     console.error('Login error:', error);
-                    //Alert.alert('Login Failed', 'Invalid username or password.');
+                    //Alert.alert('Login Failed', 'Invalid username or password');
                 }
 
               }
